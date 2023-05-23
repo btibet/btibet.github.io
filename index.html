@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Title: add your Portfolio websites's title here -->
+    <title> Çağatay Koç | Developer</title>
+
+    <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
+    <meta name="keywords" content="cagataykoc, cagatay, unity, csharp" />
+
+    <!-- Improve your SEO by adding a small descrption of you -->
+    <meta name="description" content="Çağatay Koç | Developer" />
+
+    <!-- Add a your png Logo to the assets folder and change the href attr accordingly  -->
+    <link rel="icon" type="image/png" href="./assets/devfolio-logo.png" />
+
+    <!-- Add your primary-theme color for the value of content -->
+    <meta name="theme-color" content="#36d1dc" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <!-- Fill content with the URL of this portfolio you'll host -->
+    <meta property="og:url" content="https://thrvoid96.github.io/" />
+    <!-- Fill content with the title of your portfolio(Recommended to use what you put in <title> tag) -->
+    <meta property="og:title" content="Çağatay Koç | Developer" />
+    <!-- Give a short description that'll show up when you/someone shares your portfolio on different platform -->
+    <meta property="og:description" content="Çağatay Koç Portfolio" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <!-- Again fill content attr with the URL of this portfolio you'll host -->
+    <meta property="twitter:title" content="Çağatay Koç | Developer" />
+    <!-- short description that shows up while your portfolio is shared -->
+    <meta
+      property="twitter:description"
+      content="Çağatay Koç Portfolio"
+    />
+
+    <!-- link tags -->
+    <link rel="stylesheet" href="./css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="./javascript/scrollreveal.min.js"></script>
+    <script
+      defer
+      type="text/javascript"
+      src="./javascript/scrollveal.js"
+    ></script>
+
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-122228201-4");
+    </script>
+    <!-- End of Google Analytics -->
+  </head>
+
+<style>
+    /* On screens that are less than 768px, show one row */
+    @media (max-width: 767px) {
+        .grid {
+            grid-template-rows: repeat(1, minmax(200px, 1fr));
+        }
+    }
+</style>
+
+  <body>
+    <!-- Hero Section -->
+    <div id="hero">
+      <section class="container">
+        <h1 class="hero-title">
+          Hi, my name is <span class="text-color-main name">Çağatay Koç</span>
+          <br />
+          I'm a Game Developer.
+        </h1>
+        <p class="hero-cta">
+          <a class="cta-btn cta-btn--hero" href="#about">Get in touch</a>
+        </p>
+      </section>
+      <a href="#about" class="scroll-down-link" aria-label="scroll-down">
+        <div class="scroll-down"></div
+      ></a>
+    </div>
+    <!-- /END Hero Section -->
+
+    <!-- About Section -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="row about-wrapper">
+          <div class="about-wrapper__image">
+            <img
+              class="img-fluid"
+              src="./assets/me.jpeg"
+              alt="Profile Image"
+            />
+          </div>
+          <div class="about-wrapper__info">
+            <p class="about-wrapper__info-text">
+            I have started my career with a friend group of mine, who are very passionate about making video games. 
+            Even though I have 1 year of professional experience in game development, I have been using 
+            Unity for 3 years now and have experience in both computer and mobile games.
+            </p>
+            <span class="about-wrapper__cta">
+              <a href="./assets/CV.pdf" download="CagatayKocCV" class="cta-btn cta-btn--resume">View Resume</a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /END About Section -->
+
+    <!--Projects Section-->
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">Projects</h2>
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">The Dark Crown: Genesis</h3>
+              <p class="project-wrapper__text-info">
+                The Dark Crown: Genesis is a 2D rogue-lite skill-based action platformer, where you can easily switch between abilities
+                throughout the game.
+              </p>
+          
+              <div class="project-wrapper__text-btns">
+                <a
+                  href="https://store.steampowered.com/app/2150940/The_Dark_Crown_Genesis/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn cta-btn--hero cta-btn--projects"
+                  >Steam</a
+                >
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+                <iframe width="100%" max-width="500" height="315" src="https://www.youtube.com/embed/AGwWZVYOeCY"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+              <!--<a href="#" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/project.png"
+                    class="img-fluid"
+                    alt="Project Image"
+                  />
+                </div>
+              </a></!-->
+            </div>
+          </article>
+          <!-- /END Project -->
+        <div class="project-wrapper__text">
+            <h3 class="project-wrapper__text-title">Other Projects</h3>
+        </div>
+        <div class="grid">
+        <div class="col-4 col-md-2">
+                <div class="project-wrapper__image">
+                    <a href="https://www.youtube.com/watch?v=4gAviGId6Lk" target="_blank" rel="noopener noreferrer">
+                        <div class="thumbnail rounded">
+                            <img src="./assets/sus.png" class="img-fluid" alt="Project Image" />
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-4 col-md-2">
+                <div class="project-wrapper__image">
+                    <a href="https://play.google.com/store/apps/details?id=com.Lebleby.SoccerPractice3D&hl=tr&gl=US" target="_blank" rel="noopener noreferrer">
+                        <div class="thumbnail rounded">
+                            <img src="./assets/soccer.png" class="img-fluid" alt="Project Image" />
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-4 col-md-2">
+                <div class="project-wrapper__image">
+                    <a href="https://play.google.com/store/apps/details?id=com.Lebleby.BusterGhost3D&hl=tr&gl=US" target="_blank" rel="noopener noreferrer">
+                        <div class="thumbnail rounded">
+                            <img src="./assets/ghosty.png" class="img-fluid" alt="Project Image" />
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-4 col-md-2">
+                <div class="project-wrapper__image">
+                    <a href="https://apps.apple.com/ae/app/blacksmithmaster3d/id1627697215" target="_blank" rel="noopener noreferrer">
+                        <div class="thumbnail rounded">
+                            <img src="./assets/black.png" class="img-fluid" alt="Project Image" />
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-4 col-md-2">
+                <div class="project-wrapper__image">
+                    <a href="https://apps.apple.com/ae/app/potion-shuffle/id1612669197" target="_blank" rel="noopener noreferrer">
+                        <div class="thumbnail rounded">
+                            <img src="./assets/potion.png" class="img-fluid" alt="Project Image" />
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-4 col-md-2">
+                <div class="project-wrapper__image">
+                    <a href="https://apps.apple.com/ae/app/recoil-control-3d/id1626264668?platform=ipad" target="_blank" rel="noopener noreferrer">
+                        <div class="thumbnail rounded">
+                            <img src="./assets/recoil.png" class="img-fluid" alt="Project Image" />
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-4 col-md-2">
+                <div class="project-wrapper__image">
+                    <a href="https://apps.apple.com/ae/app/arming-evolution/id1608580535" target="_blank" rel="noopener noreferrer">
+                        <div class="thumbnail rounded">
+                            <img src="./assets/arming.png" class="img-fluid" alt="Project Image" />
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-4 col-md-2">
+                <div class="project-wrapper__image">
+                    <a href="https://apps.apple.com/ae/app/ragdoll-hammer-3d/id1607560420" target="_blank" rel="noopener noreferrer">
+                        <div class="thumbnail rounded">
+                            <img src="./assets/hammer.png" class="img-fluid" alt="Project Image" />
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-4 col-md-2">
+                <div class="project-wrapper__image">
+                    <a href="https://apps.apple.com/ae/app/prison-gang-run-3d/id1617786686" target="_blank" rel="noopener noreferrer">
+                        <div class="thumbnail rounded">
+                            <img src="./assets/prison.png" class="img-fluid" alt="Project Image" />
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-4 col-md-2">
+                <div class="project-wrapper__image">
+                    <a href="https://play.google.com/store/apps/details?id=com.Lebleby.FireandIceMaze" target="_blank" rel="noopener noreferrer">
+                        <div class="thumbnail rounded">
+                            <img src="./assets/fireandice.png" class="img-fluid" alt="Project Image" />
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-4 col-md-2">
+                <div class="project-wrapper__image">
+                    <a href="https://play.google.com/store/apps/details?id=com.Lebleby.MinerWagonIdle" target="_blank" rel="noopener noreferrer">
+                        <div class="thumbnail rounded">
+                            <img src="./assets/miner.png" class="img-fluid" alt="Project Image" />
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-4 col-md-2">
+                <div class="project-wrapper__image">
+                    <a href="https://play.google.com/store/apps/details?id=com.Lebleby.RoadPaver3D" target="_blank" rel="noopener noreferrer">
+                        <div class="thumbnail rounded">
+                            <img src="./assets/paver.png" class="img-fluid" alt="Project Image" />
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-4 col-md-2">
+                <div class="project-wrapper__image">
+                    <a href="https://apps.apple.com/ae/app/towing-run-3d/id1607546627" target="_blank" rel="noopener noreferrer">
+                        <div class="thumbnail rounded">
+                            <img src="./assets/towing.png" class="img-fluid" alt="Project Image" />
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-4 col-md-2">
+                <div class="project-wrapper__image">
+                    <a href="https://apps.apple.com/ae/app/iron-master-3d/id1619481495" target="_blank" rel="noopener noreferrer">
+                        <div class="thumbnail rounded">
+                            <img src="./assets/iron.png" class="img-fluid" alt="Project Image" />
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-4 col-md-2">
+                <div class="project-wrapper__image">
+                    <a href="https://apps.apple.com/ae/app/slap-quiz/id1615590336" target="_blank" rel="noopener noreferrer">
+                        <div class="thumbnail rounded">
+                            <img src="./assets/slap.png" class="img-fluid" alt="Project Image" />
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-4 col-md-2">
+                <div class="project-wrapper__image">
+                    <a href="https://apps.apple.com/ae/app/novel-maker-3d/id1619985965" target="_blank" rel="noopener noreferrer">
+                        <div class="thumbnail rounded">
+                            <img src="./assets/novel.png" class="img-fluid" alt="Project Image" />
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-4 col-md-2">
+                <div class="project-wrapper__image">
+                    <a href="https://apps.apple.com/ae/app/two-cups-trick/id1606538005" target="_blank" rel="noopener noreferrer">
+                        <div class="thumbnail rounded">
+                            <img src="./assets/cups.png" class="img-fluid" alt="Project Image" />
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-4 col-md-2">
+                <div class="project-wrapper__image">
+                    <a href="https://apps.apple.com/ae/app/high-escape-3d/id1611392598" target="_blank" rel="noopener noreferrer">
+                        <div class="thumbnail rounded">
+                            <img src="./assets/escape.png" class="img-fluid" alt="Project Image" />
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Projects Section -->
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-wrapper">
+          <a href="mailto:thrvoid97@gmail.com" class="cta-btn cta-btn--resume">Let's Work Together</a>
+        </div>
+      </div>
+    </section>
+    <!-- END Contact Section -->
+
+    <!-- Footer Section -->
+    <footer class="footer">
+      <div class="container">
+        <a href="#hero" class="back-to-top" aria-label="go back to top">
+          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+        </a>
+        <div class="social-links">
+          </a>
+          <a
+            href="https://www.linkedin.com/in/%C3%A7a%C4%9Fatay-ko%C3%A7-45a917202/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="linkedin"
+          >
+            <i class="fa fa-linkedin"></i>
+          </a>
+          <a
+            href="https://github.com/thrvoid96"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="github"
+          >
+            <i class="fa fa-github"></i>
+          </a>
+        </div>
+        <hr />
+        <p class="footer__text">
+          &copy; <span id="year"></span> - Çağatay Koç
+        </p>
+      </div>
+    </footer>
+    <!-- END Footer Section -->
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+    <script src="./javascript/vanilla-tilt.min.js"></script>
+    <script type="text/javascript" src="./javascript/valtilt.js"></script>
+  </body>
+</html>
